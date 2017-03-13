@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Software</title>
+
+<script src="libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="libs/navigation-1.1/tabsets.js"></script>
+<link href="libs/highlightjs-1.1/default.css" rel="stylesheet" />
+<script src="libs/highlightjs-1.1/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <!-- NOTE: add "navbar-inverse" class for an alternate navbar background -->
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Derrick Kearney</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="Software.html">Software</a></li>
+        <li><a href="Dissemination.html">Dissemination</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://github.com/codedsk">GitHub</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Software</h1>
+
+</div>
+
+
+<div id="libraries-and-packages" class="section level2">
+<h2>Libraries and Packages</h2>
+<p><div class="book">
+<a href="http://rappture.org">
+<div class="bookImage" style="background-image:url( images/rappture_logo_150x150.svg )"></div>
+<div class="bookMeta">
+<div class="title">
+<a href="http://rappture.org">Rappture Toolkit</a>
+</div>
+<div class="overview">
+<b>R</b>apid <b>APP</b>lication infrastruc<b>TURE</b> toolkit that supports building desktop style graphical user interface for science based simulation tools and publishing them online.
+<br/> <br/> Languages/Libraries:  C/C++, Tcl/Tk
+
+</div>
+</div>
+</a>
+</div><div class="book">
+<a href="https://github.com/codedsk/hubcheck">
+<div class="bookImage" style="background-image:url( images/hubcheck_logo_150x150.svg )"></div>
+<div class="bookMeta">
+<div class="title">
+<a href="https://github.com/codedsk/hubcheck">HUBcheck</a>
+</div>
+<div class="overview">
+A library for building automation and testing/checking scripts against the HUBzero Platform (website and tool container) that mimic the user experience.
+<br/> <br/> Languages/Libraries:  Python
+
+</div>
+</div>
+</a>
+</div><div class="book">
+<a href="https://github.com/codedsk/wrwroxy">
+<div class="bookImage" style="background-image:url( images/wrwroxy_logo_150x150.svg )"></div>
+<div class="bookMeta">
+<div class="title">
+<a href="https://github.com/codedsk/wrwroxy">wrwroxy</a>
+</div>
+<div class="overview">
+The <b>W</b>eber Re<b>W</b>rite p<b>ROXY</b> runs inside of the HUBzero Platform tool container, between the Exec Proxy and a web server based (weber) application, and forwards connections between the two, rewriting the header to remove the HUBzero specific parts of the request path. This allows the weber application to think it is serving files from the root of the web server. The proxy also has the capability of performing light security checks, like checking that incoming requests have the correct authentication cookie.
+<br/> <br/> Languages/Libraries:  Python
+
+</div>
+</div>
+</a>
+</div><div class="book">
+<a href="https://hubzero.org/documentation/2.1.0/tooldevs/invoke">
+<div class="bookImage" style="background-image:url( images/invokeapp_logo_150x150.png )"></div>
+<div class="bookMeta">
+<div class="title">
+<a href="https://hubzero.org/documentation/2.1.0/tooldevs/invoke">invokeapp</a>
+</div>
+<div class="overview">
+Script used to standardize the environment setup and launching of applications inside the HUBzero tool container.
+<br/> <br/> Languages/Libraries:  Bash
+<br/> <br/> Debian Package/Source -  <a href="http://packages.hubzero.org/deb/pool/main/h/hubzero-invokeapp/hubzero-invokeapp_2.0.0.orig.tar.gz">http://packages.hubzero.org/deb/pool/main/h/hubzero-invokeapp/hubzero-invokeapp_2.0.0.orig.tar.gz</a>
+</div>
+</div>
+</a>
+</div></p>
+</div>
+<div id="applications-and-environments" class="section level2">
+<h2>Applications and Environments</h2>
+<p><div class="book">
+<a href="http://packages.hubzero.org/deb/pool/main/h/hubzero-chuse/hubzero-chuse_2.0.0.orig.tar.gz">
+<div class="bookImage" style="background-image:url( images/chuse_logo_150x150.svg )"></div>
+<div class="bookMeta">
+<div class="title">
+<a href="http://packages.hubzero.org/deb/pool/main/h/hubzero-chuse/hubzero-chuse_2.0.0.orig.tar.gz">chuse</a>
+</div>
+<div class="overview">
+Tcl/Tk based GUI wrapper around the HUBzero <i>use</i> utility for setting up environments inside the tool container.
+<br/> <br/> Languages/Libraries:  Tcl/Tk
+<br/> <br/> Debian Package/Source -  <a href="http://packages.hubzero.org/deb/pool/main/h/hubzero-chuse/hubzero-chuse_2.0.0.orig.tar.gz">http://packages.hubzero.org/deb/pool/main/h/hubzero-chuse/hubzero-chuse_2.0.0.orig.tar.gz</a>
+</div>
+</div>
+</a>
+</div><div class="book">
+<a href="https://nanohub.org/resources/solarpv">
+<div class="bookImage" style="background-image:url( images/solarpv_logo_150x150.svg )"></div>
+<div class="bookMeta">
+<div class="title">
+<a href="https://nanohub.org/resources/solarpv">SolarPV</a>
+</div>
+<div class="overview">
+Rappture graphical user interface wrapping a Java based application that simulates electricity demand in residential communities with solar photovoltaic (PV) systems.
+<br/> <br/> Languages/Libraries:  MySQL, Python, Bash
+
+</div>
+</div>
+</a>
+</div><div class="book">
+<a href="https://nanohub.org/resources/particleve">
+<div class="bookImage" style="background-image:url( images/particleve_logo_150x150.svg )"></div>
+<div class="bookMeta">
+<div class="title">
+<a href="https://nanohub.org/resources/particleve">ParticleVE</a>
+</div>
+<div class="overview">
+Track and estimate particle velocities using video from the 2010 Deepwater Horizon oil spill in the Gulf of Mexico.
+<br/> <br/> Languages/Libraries:  Tcl/Tk, C (libav/ffmpeg)
+
+</div>
+</div>
+</a>
+</div><div class="book">
+<a href="https://nanohub.org/resources/nanofet">
+<div class="bookImage" style="background-image:url( images/nanofet_logo_150x150.svg )"></div>
+<div class="bookMeta">
+<div class="title">
+<a href="https://nanohub.org/resources/nanofet">NanoFET</a>
+</div>
+<div class="overview">
+Simulates the effects of downscaling conventional CMOS devices, uncovering the challenges of working on the ever-shrinking nanoelectronics in today's devices.
+<br/> <br/> Languages/Libraries:  FORTRAN, Rappture Toolkit, MPI
+
+</div>
+</div>
+</a>
+</div><div class="book">
+<a href="https://nanohub.org/resources/workspace">
+<div class="bookImage" style="background-image:url( images/workspace_logo_150x150.svg )"></div>
+<div class="bookMeta">
+<div class="title">
+<a href="https://nanohub.org/resources/workspace">Workspace</a>
+</div>
+<div class="overview">
+A Linux desktop, in your web browser. Workspaces provide graphical access to your home directory on the HUB. They are packed with compilers, libraries, debuggers, your favorite text editor, and access to grid computing resources so you can perform research and develop code in a secure, containerized, persistant environment. I help setup, configure, and maintain workspaces on the HUBs managed by the HUBzero team.<br/><br/>Try it out for free by registering for an account on <a href="https://hubzero.org">https://hubzero.org</a>.
+
+
+</div>
+</div>
+</a>
+</div></p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

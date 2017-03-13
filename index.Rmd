@@ -1,0 +1,36 @@
+---
+title: "code + dsk"
+output:
+    html_document:
+        css: style.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<div class="row">
+<div class="col-md-6">
+<!--
+  use the img tag because image
+  markdown doesn't seem to let us
+  set class attributes
+-->
+<img src="images/avatar.jpeg" class="img-responsive center-block"/>
+</div> <!-- end col -->
+
+<div class="col-md-6">
+## About the code
+
+The projects highlighted on these pages are primarily focused around work I've done providing interfaces for users building science based simulation and analysis tools and deploying them on the internet. Many of the projects are open source and links are provided for their project web page and package source on the [Software](Software.html) page. The [Dissemination](Dissemination.html) page highlights workshops I've led, conference talks I've given, and papers I've contributed to. Check out the [github](https://github.com/codedsk) for recent stuff I'm playing around with.
+
+## About the dsk
+
+There are three things you should know about me:
+
+1. I like to ask questions and solve problems, using software when possible.
+2. I love to learn.
+3. I enjoy sharing knowledge with others.
+
+</div> <!-- end col -->
+</div> <!-- end row -->

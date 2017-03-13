@@ -1,0 +1,62 @@
+---
+title: "Dissemination"
+output:
+    html_document:
+        css: style.css
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("features.R")
+```
+
+## Recorded Conference Talks
+
+```{r ConferenceFeatures, echo=FALSE}
+feature(
+    title="SeleniumConf 2014 - Design Patterns Beyond the Page Object",
+    img="images/seleniumconf2014_logo_150x150.svg",
+    href="https://www.youtube.com/watch?v=AVrnBJDQeaI",
+    desc="At SeleniumConf 2014, their first year in India, I spoke about three design patterns you should be using once you understand the Page Object: WebForm Pattern, ItemList Pattern, and IframeWrap Pattern.<br/><br/>Watch it on YouTube: <a href='https://www.youtube.com/watch?v=AVrnBJDQeaI'>https://www.youtube.com/watch?v=AVrnBJDQeaI</a><br/><br/>Download the slides: <a href='https://github.com/codedsk/seleniumconf2014'>https://github.com/codedsk/seleniumconf2014</a>"
+)
+```
+
+## Workshop Materials
+
+<!--
+* Mozilla Festival 2016 - http://bit.ly/mozfest415
+* NCN Software Bootcamp - https://github.com/codedsk/ncnsoftwarebootcamp
+-->
+
+```{r WorkshopFeatures, echo=FALSE}
+feature(
+    title="Mozilla Festival 2016 - Build and Share a Scientific Simulation",
+    img="images/mozfest2016_logo_150x150.svg",
+    href="http://bit.ly/mozfest415",
+    desc="Research at the University level is filled with stories of code being passed down from grad student to grad student and referenced in papers but rarely being used by others outside of the original research team. In this workshop participants learned about what resources the HUBzero Platform provides to help disseminate that research code, with a web or desktop style graphical user interface, to the world so it can be used by others and built upon in an Open Source ecosystem.<br/><br/>Workshop notes and presentations links: <a href='http://bit.ly/mozfest415'>http://bit.ly/mozfest415</a>"
+)
+
+feature(
+    title="NCN Software Bootcamp",
+    img="images/ncnsoftwarebootcamp_logo_150x150.svg",
+    href="https://github.com/codedsk/ncnsoftwarebootcamp",
+    desc="Every year, I help run a software bootcamp sponsored by the <a href='https://nanohub.org/groups/ncn/'>Network for Computational Nanotechnology (NCN)</a>. The 3-5 day workshop is geared toward getting the summer students participating in the <a href='https://engineering.purdue.edu/Engr/Research/SURF'>SURF</a> program familiar with good programming practices, debugging skills, the <a href='http://rappture.org'>Rappture Toolkit</a>, source code repositories, and how to publish simulation tools on <a href='https://nanohub.org'>nanohub.org</a>. I've also run this workshop at <a href='http://illinois.edu/'>several</a> <a href='http://ucmerced.edu/'>other</a> <a href='https://www.nsu.edu/'>universities</a> and parts of it at <a href='https://hubzero.org/hubbub'>conferences</a>.<br/><br/>Workshop materials:<a href='https://github.com/codedsk/ncnsoftwarebootcamp'>https://github.com/codedsk/ncnsoftwarebootcamp</a>"
+)
+
+```
+
+## Papers
+
+<!--
+* HUBzero and Pegasus: Integrating scientific workflows into science gateways - http://bit.ly/dk-pub-2014-1
+-->
+
+```{r PaperFeatures, echo=FALSE}
+feature(
+    title="HUBzero and Pegasus: Integrating scientific workflows into science gateways",
+    img="images/hzpegasus2014_logo_150x150.svg",
+    href="http://bit.ly/dk-pub-2014-1",
+    desc="Use the Pegasus Workflow Management system from within the HUBzero Platform tool containers, inside your simulation tool or on the command line!<br/><br/>Read the paper: <a href='http://bit.ly/dk-pub-2014-1'>http://bit.ly/dk-pub-2014-1</a>"
+)
+```
