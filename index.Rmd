@@ -22,7 +22,7 @@ knitr::opts_chunk$set(echo = TRUE)
 <div class="col-md-6">
 ## About the code
 
-The projects highlighted on these pages are primarily focused around work I've done providing interfaces for users building science based simulation and analysis tools and deploying them on the internet. Many of the projects are open source and links are provided for their project web page and package source on the [Software](Software.html) page. The [Dissemination](Dissemination.html) page highlights workshops I've led, conference talks I've given, and papers I've contributed to. Check out the [github](https://github.com/codedsk) for recent stuff I'm playing around with.
+The projects highlighted on these pages are primarily focused around work I've done providing interfaces for users building science based simulation and analysis tools and deploying them on the internet. Many of the projects are open source and links are provided for their project web page and package source on the [Software](software.html) page. The [Dissemination](dissemination.html) page highlights workshops I've led, conference talks I've given, and papers I've contributed to. Check out the [github](https://github.com/codedsk) for other stuff I'm playing around with.
 
 ## About the dsk
 
