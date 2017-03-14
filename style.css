@@ -14,53 +14,11 @@ p {
   line-height: 20px;
 }
 
-#header #content {
-  margin:0 auto;
-  max-width:850px;
-  padding:0 20px;
-}
-
-#header #content #logo {
+.navbar-right .github {
   display:inline-block;
-  font-size:24px;
-  color:#72776d;
-}
-
-#header #content #navLeft {
-  display:inline-block;
-  font-size:14px;
-  margin-left:50px;
-
-  color:#878c82;
-}
-
-#header #content #nav .navItem {
-  display:inline-block;
-  padding:0px 20px;
-}
-
-#header #content #nav .navItem.current {
-  color:#000;
-}
-
-#header #content #nav a {
-  text-decoration: none;
-  color:inherit;
-}
-
-#header #content #nav a:hover {
-  color:#000;
-}
-
-#header #content #navRight {
-  float:right;
-}
-
-#header #content #navRight .gitHub {
-  display:inline-block;
-  width:36px;
-  height:36px;
-  background-image: url(../images/gitHubLogo.svg);
+  width:15px;
+  height:15px;
+  background-image: url(images/GitHub-Mark-15px.svg);
   background-size: 100% 100%;
   background-repeat:no-repeat;
 
@@ -68,19 +26,8 @@ p {
   opacity:.5;
 }
 
-#header #content #navRight .gitHub:hover {
+.navbar-right .github:hover {
   opacity:1;
-}
-
-
-#main #content {
-  margin:100px auto;
-  max-width:850px;
-  padding:0 20px;
-}
-
-.main-container .section h2 {
-  margin-top: 5px;
 }
 
 .book {
@@ -96,6 +43,15 @@ p {
 }
 
 .book a:hover {
+  text-decoration: underline;
+}
+
+.about a {
+  text-decoration: none;
+  color:#de6048;
+}
+
+.about a:hover {
   text-decoration: underline;
 }
 
@@ -121,42 +77,6 @@ p {
   box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.2);
 }
 
-.color1 {
-/*  background-color:#608db1; */
-  background-color: #9d8c8a;
-  color:#fff;
-}
-
-.color2 {
-/*  background-color: #bcbc9d; */
-  background-color: #72776d;
-  color:#fff;
-}
-
-.color3 {
-/*  background-color: #b16d60; */
-  background-color: #de6048;
-  color:#fff;
-}
-
-.book .bookImage .title {
-  font-size:13px;
-  line-height:18px;
-}
-
-.book .bookImage .author {
-  font-size:11px;
-  position:absolute;
-  bottom:10px;
-  right:10px;
-  left:10px;
-  text-align:right;
-
-  white-space:nowrap;
-  overflow:hidden;
-  text-overflow: ellipsis;
-}
-
 .book .bookMeta {
   box-sizing: border-box;
 
@@ -169,22 +89,9 @@ p {
   margin-left:170px;
 }
 
-.book .bookMeta iframe {
-  float:right;
-}
-
 .book .bookMeta .title {
   font-size:16px;
   line-height:24px;
-}
-
-.book .bookMeta .author {
-  color: #72776d;
-}
-
-.book .bookMeta .date {
-  margin-bottom:18px;
-  color: #72776d;
 }
 
 .book .bookMeta .overview {
@@ -219,108 +126,6 @@ p {
   background: white;
 }
 
-#main #content {
-  color:#666;
-  font-size:14px;
-  line-height:20px;
-}
-
-#main #content blockquote {
-  padding-bottom:15px;
-  border-bottom: 1px dotted #72776d;
-  font-style: italic;
-}
-
-#getting-started h2 {
-    line-height:66px;
-    font-size:36px;
-    margin:35px 0 5px 0;
-    font-weight:300;
-}
-
-#getting-started h2 .bigNumber {
-  display:inline-block;
-  font-size:36px;
-
-  width:66px;
-  text-align:center;
-  margin-right:20px;
-
-  border-radius:100px;
-}
-
-#getting-started .level2 p,
-#getting-started .level2 pre {
-  margin-left:86px;
-}
-
-#getting-started .level2 img {
-  border: 1px solid #ccc;
-}
-
-#footer {
-  font-family: "Helvetica Neue", Helvetica Neue, Helvetica, Arial, sans-serif;
-
-}
-
-#footer #content {
-  margin:0 auto;
-  max-width:850px;
-  padding:20px;
-
-  line-height:40px;
-}
-
-#footer #content #finePrint {
-  font-size: 11px;
-  font-style: italic;
-  color: gray;
-}
-
-#footer #content #social {
-  float:right;
-}
-
-#footer .socialIcon {
-  display:inline-block;
-  width:32px;
-  height:32px;
-  background-size: 100% 100%;
-  background-repeat:no-repeat;
-
-  vertical-align: middle;
-  opacity:.50;
-}
-
-#footer .socialIcon:hover {
-  opacity:1;
-}
-
-#footer .socialIcon.twitter {
-  background-image: url(../images/twitterLogo.svg);
-}
-
-#footer .socialIcon.gitHub {
-  background-image: url(../images/gitHubLogo.svg);
-}
-
-#footer .socialIcon.linkedIn {
-  background-image: url(../images/linkedIn.svg);
-}
-
-#footer .socialIcon.facebook {
-  background-image: url(../images/facebookLogo.svg);
-}
-
-#footer #finePrint a {
-  text-decoration: none;
-  color:#de6048;
-}
-
-#footer #finePrint a:hover {
-  text-decoration: underline;
-}
-
 
 @media only screen and (max-width: 600px) {
 
@@ -329,27 +134,10 @@ p {
     margin-left:0px;
   }
 
-  .book .bookMeta .date {
-    margin-bottom:10px;
-  }
-
-  .book .bookMeta .date:after {
-    content:'';
-    clear:both;
-    display:block;
-    height:1px;
-    line-height:1px;
-  }
-
   .book .bookMeta .overview {
     display:block;
     margin-bottom:50px;
     max-height:100px;
-  }
-
-
-  .book .bookMeta iframe {
-    float:none;
   }
 
   #header {
@@ -357,53 +145,5 @@ p {
     line-height:40px;
   }
 
-  #header #content #logo {
-    display:inline-block;
-    font-size:18px;
-  }
-
-  #header #content #navLeft {
-    font-size:12px;
-    margin-left:15px;
-  }
-
-  #header #content #nav .navItem {
-    display:inline-block;
-    padding:0px 5px;
-  }
-
-  #header #content #nav .gitHub {
-    width:24px;
-    height:24px;
-  }
-
-  #main #content {
-    margin:60px auto;
-  }
-
-  #getting-started {
-    font-size:12px;
-  }
-
-  #getting-started h2 {
-      line-height:44px;
-      font-size:24px;
-      margin:40px 0 5px 0;
-      font-weight:300;
-  }
-
-  #getting-started h2 .bigNumber {
-    font-size:24px;
-    width:44px;
-    margin-right:10px;
-  }
-
-  #getting-started .detail {
-    margin-left:54px;
-  }
-
-  #footer #content #social {
-    float:none;
-  }
 }
 

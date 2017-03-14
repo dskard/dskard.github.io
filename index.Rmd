@@ -19,10 +19,10 @@ knitr::opts_chunk$set(echo = TRUE)
 <img src="images/avatar.jpeg" class="img-responsive center-block"/>
 </div> <!-- end col -->
 
-<div class="col-md-6">
+<div class="col-md-6 about">
 ## About the code
 
-The projects highlighted on these pages are primarily focused around work I've done providing interfaces for users building science based simulation and analysis tools and deploying them on the internet. Many of the projects are open source and links are provided for their project web page and package source on the [Software](software.html) page. The [Dissemination](dissemination.html) page highlights workshops I've led, conference talks I've given, and papers I've contributed to. Check out the [github](https://github.com/codedsk) for other stuff I'm playing around with.
+The projects highlighted on these pages are primarily focused around work I've done providing interfaces for users building science based simulation and analysis tools and deploying them on the internet. Many of the projects are open source. Links are provided for project web pages and package sources on the [Software](software.html) page. The [Dissemination](dissemination.html) page highlights workshops I've led, conference talks I've given, and papers I've contributed to. Check out the [github](https://github.com/codedsk) for other stuff I'm playing around with.
 
 ## About the dsk
 

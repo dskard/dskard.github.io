@@ -18,23 +18,18 @@ feature(
     title="SeleniumConf 2014 - Design Patterns Beyond the Page Object",
     img="images/seleniumconf2014_logo_150x150.svg",
     href="https://www.youtube.com/watch?v=AVrnBJDQeaI",
-    desc="At SeleniumConf 2014, their first year in India, I spoke about three design patterns you should be using once you understand the Page Object: WebForm Pattern, ItemList Pattern, and IframeWrap Pattern.<br/><br/>Watch it on YouTube: <a href='https://www.youtube.com/watch?v=AVrnBJDQeaI'>https://www.youtube.com/watch?v=AVrnBJDQeaI</a><br/><br/>Download the slides: <a href='https://github.com/codedsk/seleniumconf2014'>https://github.com/codedsk/seleniumconf2014</a>"
+    desc="At <a href='https://confengine.com/selenium-conf-2014'>SeleniumConf 2014</a>, their first year in India, I spoke about three design patterns you should be using once you understand the Page Object: WebForm Pattern, ItemList Pattern, and IframeWrap Pattern.<br/><br/>Watch it on YouTube: <a href='https://www.youtube.com/watch?v=AVrnBJDQeaI'>https://www.youtube.com/watch?v=AVrnBJDQeaI</a><br/><br/>Download the slides: <a href='https://github.com/codedsk/seleniumconf2014'>https://github.com/codedsk/seleniumconf2014</a>"
 )
 ```
 
 ## Workshop Materials
-
-<!--
-* Mozilla Festival 2016 - http://bit.ly/mozfest415
-* NCN Software Bootcamp - https://github.com/codedsk/ncnsoftwarebootcamp
--->
 
 ```{r WorkshopFeatures, echo=FALSE}
 feature(
     title="Mozilla Festival 2016 - Build and Share a Scientific Simulation",
     img="images/mozfest2016_logo_150x150.svg",
     href="http://bit.ly/mozfest415",
-    desc="Research at the University level is filled with stories of code being passed down from grad student to grad student and referenced in papers but rarely being used by others outside of the original research team. In this workshop participants learned about what resources the HUBzero Platform provides to help disseminate that research code, with a web or desktop style graphical user interface, to the world so it can be used by others and built upon in an Open Source ecosystem.<br/><br/>Workshop notes and presentations links: <a href='http://bit.ly/mozfest415'>http://bit.ly/mozfest415</a>"
+    desc="Research at the University level is filled with stories of code being passed down from grad student to grad student and referenced in papers but rarely being used by others outside of the original research team. In this workshop participants learned about what resources the <a href='https://hubzero.org'>HUBzero Platform</a> provides to help disseminate that research code, with a web or desktop style graphical user interface, to the world so it can be used by others and built upon in an Open Source ecosystem.<br/><br/>Workshop notes and presentations links: <a href='http://bit.ly/mozfest415'>http://bit.ly/mozfest415</a>"
 )
 
 feature(
@@ -57,6 +52,6 @@ feature(
     title="HUBzero and Pegasus: Integrating scientific workflows into science gateways",
     img="images/hzpegasus2014_logo_150x150.svg",
     href="http://bit.ly/dk-pub-2014-1",
-    desc="Use the Pegasus Workflow Management system from within the HUBzero Platform tool containers, inside your simulation tool or on the command line!<br/><br/>Read the paper: <a href='http://bit.ly/dk-pub-2014-1'>http://bit.ly/dk-pub-2014-1</a>"
+    desc="Use the <a href='https://pegasus.isi.edu/'>Pegasus Workflow Management System</a> from within the HUBzero Platform tool containers, inside your simulation tool, or on the command line!<br/><br/>Read the paper: <a href='http://bit.ly/dk-pub-2014-1'>http://bit.ly/dk-pub-2014-1</a>"
 )
 ```
