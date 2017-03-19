@@ -1,62 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="150"
-   height="150"
-   viewBox="0 0 39.6875 39.6875"
-   version="1.1"
    id="svg8"
-   inkscape:export-filename="/home/derrick/projects/codedsk/codedsk.github.io/ff/chuse_150x150.png"
-   inkscape:export-xdpi="25.4"
-   inkscape:export-ydpi="25.4"
-   inkscape:version="0.92.1 r15371"
-   sodipodi:docname="wrwroxy_logo_150x150.svg">
+   version="1.1"
+   viewBox="0 0 39.6875 39.6875"
+   height="150"
+   width="150">
   <defs
      id="defs2">
     <linearGradient
        id="linearGradient2250">
       <stop
-         id="stop2252"
+         style="stop-color:#66cc44;stop-opacity:1"
          offset="0"
-         style="stop-color:#66cc44;stop-opacity:1" />
+         id="stop2252" />
       <stop
-         id="stop2254"
+         style="stop-color:#66cc44;stop-opacity:1"
          offset="1"
-         style="stop-color:#66cc44;stop-opacity:1" />
+         id="stop2254" />
     </linearGradient>
   </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="25.510947"
-     inkscape:cy="142.66148"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     showgrid="true"
-     inkscape:snap-global="false"
-     inkscape:window-width="1680"
-     inkscape:window-height="1002"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     units="px">
-    <inkscape:grid
-       type="xygrid"
-       id="grid125" />
-  </sodipodi:namedview>
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -65,60 +32,53 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(0,-257.3125)">
+     transform="translate(0,-257.3125)"
+     id="layer1">
     <rect
-       style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.51479745;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="rotate(90)"
+       y="-32.557652"
+       x="284.94183"
+       height="25.070059"
+       width="6.8464074"
        id="rect17-3"
-       width="7.0826426"
-       height="30.869631"
-       x="284.7056"
-       y="-38.286362"
-       transform="rotate(90)" />
+       style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.45612308;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <rect
-       style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.47959799;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       y="261.57196"
+       x="7.2473116"
+       height="30.219984"
+       width="6.3834343"
        id="rect17"
-       width="6.1471992"
-       height="30.869631"
-       x="7.4835467"
-       y="261.05225" />
+       style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.4835566;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.72899914px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.06991873px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="0.92962301"
+       id="text123"
        y="267.96695"
-       id="text123"><tspan
-         sodipodi:role="line"
-         id="tspan121"
-         x="0.92962301"
+       x="0.92962301"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.72899914px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.06991873px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:74.00000095%;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch';stroke-width:0.06991873px"
          y="267.96695"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:74.00000095%;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch';stroke-width:0.06991873px"> Weber</tspan><tspan
-         sodipodi:role="line"
          x="0.92962301"
+         id="tspan121"> Weber</tspan><tspan
+         id="tspan15"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:74.00000095%;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch';stroke-width:0.06991873px"
          y="275.80139"
+         x="0.92962301"> Re-</tspan><tspan
+         id="tspan23"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:74.00000095%;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch';stroke-width:0.06991873px"
-         id="tspan15"> Re-</tspan><tspan
-         sodipodi:role="line"
-         x="0.92962301"
          y="283.63583"
+         x="0.92962301"> Write</tspan><tspan
+         id="tspan17"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:74.00000095%;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch';stroke-width:0.06991873px"
-         id="tspan23"> Write</tspan><tspan
-         sodipodi:role="line"
-         x="0.92962301"
          y="291.47028"
+         x="0.92962301">pROXY</tspan><tspan
+         id="tspan21"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:74.00000095%;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch';stroke-width:0.06991873px"
-         id="tspan17">pROXY</tspan><tspan
-         sodipodi:role="line"
-         x="0.92962301"
          y="296.13153"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:74.00000095%;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch';stroke-width:0.06991873px"
-         id="tspan21" /></text>
+         x="0.92962301" /></text>
   </g>
 </svg>
