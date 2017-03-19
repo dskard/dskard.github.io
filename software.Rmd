@@ -26,7 +26,7 @@ feature(
     img="images/hubcheck_logo.png",
     href="https://github.com/codedsk/hubcheck",
     desc="A library for building automation and testing/checking scripts against the HUBzero Platform (website and tool container) that mimic the user experience.",
-    codedin="Python"
+    codedin="Python, Selenium WebDriver, Firefox, BrowserMob Proxy, FFmepg, VNC, Paramiko, SSH"
 )
 
 feature(
