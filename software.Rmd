@@ -18,7 +18,8 @@ feature(
     img="images/rappture_logo.png",
     href="http://rappture.org",
     desc="<b>R</b>apid <b>APP</b>lication infrastruc<b>TURE</b> toolkit that supports building desktop style graphical user interface for science based simulation tools and publishing them online.",
-    codedin="C/C++, Tcl/Tk"
+    codedin="C/C++, Tcl/Tk",
+    repo="https://nanohub.org/infrastructure/rappture/svn/trunk"
 )
 
 feature(
@@ -26,7 +27,8 @@ feature(
     img="images/hubcheck_logo.png",
     href="https://github.com/codedsk/hubcheck",
     desc="A library for building automation and testing/checking scripts against the HUBzero Platform (website and tool container) that mimic the user experience.",
-    codedin="Python, Selenium WebDriver, Firefox, BrowserMob Proxy, FFmepg, VNC, Paramiko, SSH"
+    codedin="Python, Selenium WebDriver, Firefox, BrowserMob Proxy, FFmepg, VNC, Paramiko, SSH",
+    repo="https://github.com/codedsk/hubcheck.git"
 )
 
 feature(
@@ -34,7 +36,8 @@ feature(
     img="images/wrwroxy_logo.png",
     href="https://github.com/codedsk/wrwroxy",
     desc="The <b>W</b>eber Re<b>W</b>rite p<b>ROXY</b> runs inside of the HUBzero Platform tool container, between the Exec Proxy and a web server based (weber) application, and forwards connections between the two, rewriting the header to remove the HUBzero specific parts of the request path. This allows the weber application to think it is serving files from the root of the web server. The proxy also has the capability of performing light security checks, like checking that incoming requests have the correct authentication cookie.",
-    codedin="Python"
+    codedin="Python",
+    repo="https://github.com/codedsk/wrwroxy.git"
 )
 
 feature(
@@ -53,6 +56,15 @@ feature(
 
 ```{r applicationFeatures, echo=FALSE}
 feature(
+    title="Indiana Precipitation Explorer (INCIP)",
+    img="images/incip_logo.png",
+    href="https://mygeohub.org/tools/incip",
+    desc="Explore historical precipitation data from the state of Indiana.",
+    codedin="R, Shiny",
+    repo="https://mygeohub.org/tools/incip/svn/trunk"
+)
+
+feature(
     title="chuse",
     img="images/chuse_logo.png",
     href="http://packages.hubzero.org/deb/pool/main/h/hubzero-chuse/hubzero-chuse_2.0.0.orig.tar.gz",
@@ -66,7 +78,8 @@ feature(
     img="images/solarpv_logo.png",
     href="https://nanohub.org/resources/solarpv",
     desc="Rappture graphical user interface wrapping a Java based application that simulates electricity demand in residential communities with solar photovoltaic (PV) systems.",
-    codedin="MySQL, Python, Bash"
+    codedin="MySQL, Python, Bash",
+    repo="https://nanohub.org/tools/solarpv/svn/trunk"
 )
 
 feature(
@@ -74,7 +87,8 @@ feature(
     img="images/particleve_logo.png",
     href="https://nanohub.org/resources/particleve",
     desc="Track and estimate particle velocities using video from the 2010 Deepwater Horizon oil spill in the Gulf of Mexico.",
-    codedin="Tcl/Tk, C (libav/ffmpeg)"
+    codedin="Tcl/Tk, C (libav/ffmpeg)",
+    repo="https://nanohub.org/tools/particleve/svn/trunk"
 )
 
 feature(

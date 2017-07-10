@@ -1,16 +1,25 @@
 library(htmltools)
 
-feature <- function(title="", img="", href="", desc="", dpkg="", codedin="") {
-  
+feature <- function(title="", img="", href="", desc="", dpkg="", repo="", codedin="") {
+
   if (codedin != "") {
-    codedin = paste(br(),br(),"Languages/Libraries: ",codedin)
+    codedin = paste(br(),
+                    "Languages/Libraries: ",
+                    codedin)
   }
-  
+
   if (dpkg != "") {
-    dpkg = paste(br(),br(),"Debian Package/Source - ",
+    dpkg = paste(br(),
+                 "Debian Package/Source: ",
                  a(href=dpkg,HTML(dpkg)))
   }
-  
+
+  if (repo != "") {
+    repo = paste(br(),
+                 "Repository: ",
+                 a(href=repo,HTML(repo)))
+  }
+
   div(class = "book",
       a(href=href,
         div(class = "bookImage",
@@ -22,8 +31,10 @@ feature <- function(title="", img="", href="", desc="", dpkg="", codedin="") {
             ),
             div(class = "overview",
                 HTML(desc),
+                br(),
                 HTML(codedin),
-                HTML(dpkg)
+                HTML(dpkg),
+                HTML(repo)
             )
         )
       )
