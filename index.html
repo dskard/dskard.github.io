@@ -20,8 +20,8 @@
 <script src="libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="libs/navigation-1.1/tabsets.js"></script>
-<link href="libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="libs/highlightjs-1.1/highlight.js"></script>
+<link href="libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -30,10 +30,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -181,7 +183,7 @@ $(document).ready(function () {
         <li><a href="dissemination.html">Dissemination</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="https://github.com/codedsk"><div class="github"></div></a></li>
+        <li><a href="https://github.com/dskard"><div class="github"></div></a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -208,7 +210,7 @@ $(document).ready(function () {
 <p><!-- end col --></p>
 <div class="col-md-6 about">
 <h2 id="about-the-code">About the code</h2>
-<p>The projects highlighted on these pages are primarily focused around work I’ve done providing interfaces for users building science based simulation and analysis tools and deploying them on the internet. Many of the projects are open source. Links are provided for project web pages and package sources on the <a href="software.html">Software</a> page. The <a href="dissemination.html">Dissemination</a> page highlights workshops I’ve led, conference talks I’ve given, and papers I’ve contributed to. Check out the <a href="https://github.com/codedsk">github</a> for other stuff I’m playing around with.</p>
+<p>The projects highlighted on these pages are primarily focused around work I’ve done providing interfaces for users building science based simulation and analysis tools and deploying them on the internet. Many of the projects are open source. Links are provided for project web pages and package sources on the <a href="software.html">Software</a> page. The <a href="dissemination.html">Dissemination</a> page highlights workshops I’ve led, conference talks I’ve given, and papers I’ve contributed to. Check out the <a href="https://github.com/dskard">github</a> for other stuff I’m playing around with.</p>
 <h2 id="about-the-dsk">About the dsk</h2>
 <p>There are three things you should know about me:</p>
 <ol style="list-style-type: decimal">

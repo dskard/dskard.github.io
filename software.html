@@ -20,8 +20,8 @@
 <script src="libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="libs/navigation-1.1/tabsets.js"></script>
-<link href="libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="libs/highlightjs-1.1/highlight.js"></script>
+<link href="libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -30,10 +30,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -181,7 +183,7 @@ $(document).ready(function () {
         <li><a href="dissemination.html">Dissemination</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="https://github.com/codedsk"><div class="github"></div></a></li>
+        <li><a href="https://github.com/dskard"><div class="github"></div></a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -215,34 +217,34 @@ $(document).ready(function () {
 </div>
 </a>
 </div><div class="book">
-<a href="https://github.com/codedsk/hubcheck">
+<a href="https://github.com/dskard/hubcheck">
 <div class="bookImage" style="background-image:url( images/hubcheck_logo.png )"></div>
 <div class="bookMeta">
 <div class="title">
-<a href="https://github.com/codedsk/hubcheck">HUBcheck</a>
+<a href="https://github.com/dskard/hubcheck">HUBcheck</a>
 </div>
 <div class="overview">
 A library for building automation and testing/checking scripts against the HUBzero Platform (website and tool container) that mimic the user experience.
 <br/>
 <br/> Languages/Libraries:  Python, Selenium WebDriver, Firefox, BrowserMob Proxy, FFmepg, VNC, Paramiko, SSH
 
-<br/> Repository:  <a href="https://github.com/codedsk/hubcheck.git">https://github.com/codedsk/hubcheck.git</a>
+<br/> Repository:  <a href="https://github.com/dskard/hubcheck.git">https://github.com/dskard/hubcheck.git</a>
 </div>
 </div>
 </a>
 </div><div class="book">
-<a href="https://github.com/codedsk/wrwroxy">
+<a href="https://github.com/dskard/wrwroxy">
 <div class="bookImage" style="background-image:url( images/wrwroxy_logo.png )"></div>
 <div class="bookMeta">
 <div class="title">
-<a href="https://github.com/codedsk/wrwroxy">wrwroxy</a>
+<a href="https://github.com/dskard/wrwroxy">wrwroxy</a>
 </div>
 <div class="overview">
 The <b>W</b>eber Re<b>W</b>rite p<b>ROXY</b> runs inside of the HUBzero Platform tool container, between the Exec Proxy and a web server based (weber) application, and forwards connections between the two, rewriting the header to remove the HUBzero specific parts of the request path. This allows the weber application to think it is serving files from the root of the web server. The proxy also has the capability of performing light security checks, like checking that incoming requests have the correct authentication cookie.
 <br/>
 <br/> Languages/Libraries:  Python
 
-<br/> Repository:  <a href="https://github.com/codedsk/wrwroxy.git">https://github.com/codedsk/wrwroxy.git</a>
+<br/> Repository:  <a href="https://github.com/dskard/wrwroxy.git">https://github.com/dskard/wrwroxy.git</a>
 </div>
 </div>
 </a>

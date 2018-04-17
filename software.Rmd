@@ -25,19 +25,19 @@ feature(
 feature(
     title="HUBcheck",
     img="images/hubcheck_logo.png",
-    href="https://github.com/codedsk/hubcheck",
+    href="https://github.com/dskard/hubcheck",
     desc="A library for building automation and testing/checking scripts against the HUBzero Platform (website and tool container) that mimic the user experience.",
     codedin="Python, Selenium WebDriver, Firefox, BrowserMob Proxy, FFmepg, VNC, Paramiko, SSH",
-    repo="https://github.com/codedsk/hubcheck.git"
+    repo="https://github.com/dskard/hubcheck.git"
 )
 
 feature(
     title="wrwroxy",
     img="images/wrwroxy_logo.png",
-    href="https://github.com/codedsk/wrwroxy",
+    href="https://github.com/dskard/wrwroxy",
     desc="The <b>W</b>eber Re<b>W</b>rite p<b>ROXY</b> runs inside of the HUBzero Platform tool container, between the Exec Proxy and a web server based (weber) application, and forwards connections between the two, rewriting the header to remove the HUBzero specific parts of the request path. This allows the weber application to think it is serving files from the root of the web server. The proxy also has the capability of performing light security checks, like checking that incoming requests have the correct authentication cookie.",
     codedin="Python",
-    repo="https://github.com/codedsk/wrwroxy.git"
+    repo="https://github.com/dskard/wrwroxy.git"
 )
 
 feature(
