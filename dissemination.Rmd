@@ -11,16 +11,26 @@ knitr::opts_chunk$set(echo = TRUE)
 source("features.R")
 ```
 
-## Recorded Conference Talks
+## Recorded Conference Talks and Webinars
 
 ```{r ConferenceFeatures, echo=FALSE}
+feature(
+    title="SGCI 2018 - Working in the R Ecosystem: Building Applications & Content for Your Gateway",
+    img="images/sgci_webinar_201805_logo.png",
+    href="https://sciencegateways.org/-/rstudio-open-source-solutions-for-gateways",
+    desc="For their May 2018 webinar, I spoke with the <a href='https://sciencegateways.org/home'>Science Gateways Community Institute (SGCI)</a> about how to use the <a href='https://shiny.rstudio.com/'>Shiny</a>, <a href='https://www.rplumber.io/'>Plumber</a>, and <a href='https://rmarkdown.rstudio.com/'>R Markdown</a> libraries to build static and dynamic, <a href='https://www.r-project.org/'>R</a> based, content that can be published on a science gateway. <br/><br/>SGCI Webinar Website: <a href:='https://sciencegateways.org/-/rstudio-open-source-solutions-for-gateways'>https://sciencegateways.org/-/rstudio-open-source-solutions-for-gateways</a><br/>Watch it on YouTube: <a href='https://www.youtube.com/watch?v=8_N_EnXPv8k'>https://www.youtube.com/watch?v=8_N_EnXPv8k</a><br/>Examples, Links, Slides: <a href='https://github.com/dskard/sgci-201805'>https://github.com/dskard/sgci-201805</a>"
+)
+
 feature(
     title="SeleniumConf 2014 - Design Patterns Beyond the Page Object",
     img="images/seleniumconf2014_logo.png",
     href="https://www.youtube.com/watch?v=AVrnBJDQeaI",
     desc="At <a href='https://confengine.com/selenium-conf-2014'>SeleniumConf 2014</a>, their first year in India, I spoke about three design patterns you should be using once you understand the Page Object: WebForm Pattern, ItemList Pattern, and IframeWrap Pattern.<br/><br/>Watch it on YouTube: <a href='https://www.youtube.com/watch?v=AVrnBJDQeaI'>https://www.youtube.com/watch?v=AVrnBJDQeaI</a><br/>Download the slides: <a href='https://github.com/dskard/seleniumconf2014'>https://github.com/dskard/seleniumconf2014</a>"
 )
+
 ```
+
+
 
 ## Workshop Materials
 
@@ -44,12 +54,12 @@ feature(
     title="NCN Software Bootcamp",
     img="images/ncnsoftwarebootcamp_logo.png",
     href="https://github.com/dskard/ncnsoftwarebootcamp",
-    desc="Every year, I help run a software bootcamp sponsored by the <a href='https://nanohub.org/groups/ncn/'>Network for Computational Nanotechnology (NCN)</a>. The 3-5 day workshop is geared toward getting the summer students participating in the <a href='https://engineering.purdue.edu/Engr/Research/SURF'>SURF</a> program familiar with good programming practices, debugging skills, the <a href='http://rappture.org'>Rappture Toolkit</a>, source code repositories, and how to publish simulation tools on <a href='https://nanohub.org'>nanohub.org</a>. I've also run this workshop at <a href='http://illinois.edu/'>several</a> <a href='http://ucmerced.edu/'>other</a> <a href='https://www.nsu.edu/'>universities</a> and parts of it at <a href='https://hubzero.org/hubbub'>conferences</a>.<br/><br/>Workshop materials:<a href='https://github.com/dskard/ncnsoftwarebootcamp'>https://github.com/dskard/ncnsoftwarebootcamp</a>"
+    desc="From 2007 to 2017, I helped run a software bootcamp sponsored by the <a href='https://nanohub.org/groups/ncn/'>Network for Computational Nanotechnology (NCN)</a>. The 3-5 day workshop was geared toward getting the summer students, participating in the <a href='https://engineering.purdue.edu/Engr/Research/SURF'>SURF</a> program, familiar with good programming practices, debugging skills, the <a href='http://rappture.org'>Rappture Toolkit</a>, source code repositories, and how to publish simulation tools on <a href='https://nanohub.org'>nanohub.org</a>. I've also run this workshop at <a href='http://illinois.edu/'>several</a> <a href='http://ucmerced.edu/'>other</a> <a href='https://www.nsu.edu/'>universities</a> and parts of it at <a href='https://hubzero.org/hubbub'>conferences</a>.<br/><br/>Workshop materials:<a href='https://github.com/dskard/ncnsoftwarebootcamp'>https://github.com/dskard/ncnsoftwarebootcamp</a>"
 )
 
 ```
 
-## Papers
+## Select Papers
 
 <!--
 * HUBzero and Pegasus: Integrating scientific workflows into science gateways - http://bit.ly/dk-pub-2014-1
