@@ -54,7 +54,7 @@ feature(
     title="Mozilla Festival 2016 - Build and Share a Scientific Simulation",
     img="images/mozfest2016_logo.png",
     href="http://bit.ly/mozfest415",
-    desc="Research at the University level is filled with stories of code being passed down from grad student to grad student and referenced in papers but rarely being used by others outside of the original research team. In this workshop participants learned about what resources the <a href='https://hubzero.org'>HUBzero Platform</a> provides to help disseminate that research code, with a web or desktop style graphical user interface, to the world so it can be used by others and built upon in an Open Source ecosystem.<br/><br/>Workshop notes and presentations links: <a href='http://bit.ly/mozfest415'>http://bit.ly/mozfest415</a>"
+    desc="Research at the University level is filled with stories of code being passed down from grad student to grad student and referenced in papers but rarely being used by others outside of the original research team. In this workshop participants learned about what resources the <a href='https://hubzero.org'>HUBzero Platform</a> provides to help disseminate that research code, with a web or desktop style graphical user interface, to the world so it can be used by others and built upon in an Open Source ecosystem.<br/><br/>Workshop notes and presentations links: <s><a href='http://bit.ly/mozfest415'>http://bit.ly/mozfest415</a></s> (old link)"
 )
 
 feature(
