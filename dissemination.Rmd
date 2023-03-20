@@ -15,6 +15,13 @@ source("features.R")
 
 ```{r ConferenceFeatures, echo=FALSE}
 feature(
+    title="SeleniumConf 2018 - Selenium Grid Docker Containers, Selene and pytest",
+    img="images/seleniumconf2018_logo.png",
+    href="https://youtu.be/pUd9F_muBc4",
+    desc="At SeleniumConf 2018, I introduced a setup based on the Selenium project's Selenium Grid Docker images, a Python library named Selene, and the pytest framework that is easy to maintain, version, upgrade, and distribute to members of your development team.<br/><br/>Watch it on YouTube: <a href='https://youtu.be/pUd9F_muBc4'>https://youtu.be/pUd9F_muBc4</a>"
+)
+
+feature(
     title="SGCI 2018 - Working in the R Ecosystem: Building Applications & Content for Your Gateway",
     img="images/sgci_webinar_201805_logo.png",
     href="https://sciencegateways.org/index.php?option=com_content&view=article&id=430:rstudio-open-source-solutions-for-gateways&catid=32:w",
@@ -71,5 +78,54 @@ feature(
     img="images/hzpegasus2014_logo.png",
     href="http://bit.ly/dk-pub-2014-1",
     desc="Use the <a href='https://pegasus.isi.edu/'>Pegasus Workflow Management System</a> from within the HUBzero Platform tool containers, inside your simulation tool, or on the command line!<br/><br/>Read the paper: <a href='http://bit.ly/dk-pub-2014-1'>http://bit.ly/dk-pub-2014-1</a>"
+)
+```
+
+## Other Content
+
+<!--
+* Caching Data with Pins Package - https://indyuser.github.io/IndyUserWebpg/2020/10/20/oct2020/
+-->
+
+
+```{r OtherFeatures, echo=FALSE}
+feature(
+    title="Quarto Experience",
+    img="",
+    href="https://github.com/dskard/indy-use-r-202208",
+    desc="In this talk with Indy UseR, we hear about a first time experience using <a href='https://quarto.org/'>Quarto</a>, an open-source scientific and technical publishing system built on <a href='https://pandoc.org/'>Pandoc</a>. For this talk, I try using what I learned to write the presentation using Quarto.<br/><br/>Watch it on YouTube: <a href='https://www.youtube.com/watch?v=L25Iuw6z0Ik'>https://www.youtube.com/watch?v=L25Iuw6z0Ik</a>",
+    repo="https://github.com/dskard/indy-use-r-202208"
+)
+
+feature(
+    title="Caching Data with Pins Package",
+    img="",
+    href="https://indyuser.github.io/IndyUserWebpg/2020/10/20/oct2020/",
+    desc="In this talk with Indy UseR, we explore the <a href='http://pins.rstudio.com/'>pins</a> package. The pins package allows users to save and retrieve data to and from “boards” that can be reused locally or shared with other when used with external services like Github, Kaggle, AWS S3, Google Cloud, Azure, Digital Ocean, or RStudio Connect. We take a look at the core functions of the pins package.<br/><br/>Watch it on YouTube: <a href='https://www.youtube.com/watch?v=qva4UmXk_u4'>https://www.youtube.com/watch?v=qva4UmXk_u4</a>",
+    repo="https://github.com/dskard/indy-use-r-202010"
+)
+
+feature(
+    title="renv: Usage Scenarios",
+    img="",
+    href="https://indyuser.github.io/IndyUserWebpg/2020/03/17/mar2020/",
+    desc="In this talk with Indy UseR, we explore usage scenarios for <a href='https://rstudio.github.io/renv/'>renv</a>, an R package that helps create portable and reproducible development environments.<br/><br/>Watch it on YouTube: <a href='https://youtu.be/r6r6AdBMY2Y?t=1230'>https://youtu.be/r6r6AdBMY2Y?t=1230</a>",
+    repo="https://github.com/dskard/indy-use-r-202003"
+)
+
+feature(
+    title="Turning Your Analysis into an API with Plumber",
+    img="",
+    href="https://indyuser.github.io/IndyUserWebpg/2018/05/15/may2018/",
+    desc="You’ve imported the data, cleaned it up, and built the model. Your next step is to communicate your findings with others. Typically this would mean writing a report or building a web application so other people could visualize how the model works, but sometime your Communicate step is someone else’s Import step. In this talk, we’ll explore how to expose your analysis to others in a programmatic way by using HTTP APIs built with the Plumber library. Our conversation will include a high level overview of how HTTP works, code based examples of building an API, and how to use that API from different programming languages.",
+    repo="https://github.com/dskard/indy-use-r-201805"
+)
+
+feature(
+    title="Docker, I've been meaning to …",
+    img="",
+    href="https://github.com/dskard/hl-tt-docker-201905",
+    desc="It's something you've been meaning to look into, and every time you're ready to explore, something else comes up. That's life! Luckily, I have put together this quick primer presentation for the May 18, 2019 HackLafayette Thunder Talks that covers where Docker stands in the soup of virtualization setups out there, which commands you should probably know about to be productive, and an example of packaging up an application so it can be shared with others.<br/><br/>Examples, Links, Slides: <a href='https://github.com/dskard/hl-tt-docker-201905'>https://github.com/dskard/hl-tt-docker-201905</a>",
+    repo="https://github.com/dskard/hl-tt-docker-201905"
 )
 ```

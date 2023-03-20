@@ -6,7 +6,7 @@ all: clean html
 html: $(HTML_FILES)
 
 %.html: %.Rmd
-	R --slave -e "rmarkdown::render('$<')"
+	R --slave -e "renv::activate(); rmarkdown::render('$<')"
 
 .PHONY: clean
 clean:
